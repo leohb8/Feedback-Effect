@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.review {
+    width: 500px;
+
+    padding: 5rem;
+    margin: auto;
+}
+
+.review-title {
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.review-list {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-item {
+    font-size: 1.8rem;
+    
+    filter: grayscale(1);
+    transition: filter 0.2s, transform 0.2s;
+}
+
+.review-item:hover {
+    cursor: pointer;
+
+    filter: grayscale(0);
+    transform: scale(1.6);
+}
